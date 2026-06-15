@@ -34,9 +34,4 @@ To find the optimal decision boundary under class imbalance, **11 different Mach
 - **Clinical Relevance:** Since missing a conflicting variant (False Negative) is highly critical in medical diagnostics, high **Recall (75.9%)** makes LightGBM exceptionally suited for this domain.
 - **Feature Importance:** The engineered features (`af_max` and `n_missing_annotations`) ranked among the top 5 most important features in tree-based ensembles, validating the custom feature engineering step.
 
-### 💻 Installation & Usage
-
-1. Clone the repository:
-```bash
-git clone [https://github.com/your-username/clinvar-variant-classification.git](https://github.com/your-username/clinvar-variant-classification.git)
-cd clinvar-variant-classification
+The dataset used in this project is too large to be hosted on GitHub. You can download the clinvar_conflicting.csv file directly from [Kaggle's ClinVar Dataset](https://www.kaggle.com/datasets/kevinarvai/clinvar-conflicting) and place it in the project directory.
